@@ -33,5 +33,13 @@ And now what does that mean?
 
 ------
 
-<img src="images/123.svg" alt="image" style="zoom: 150%;" />
+<figure>
+   <center>
+<img caption="hi" src="images/123.svg" alt="image" style="zoom: 150%;" />
+<figcaption>Fig. 1 Caption goes here</figcaption><center>
+</figure>
+
+
+
+
 
