@@ -23,3 +23,9 @@ $i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{
 
 
 
+| entry | second | third |
+| ----- | ------ | :---- |
+| 132   | 324    | 523   |
+| 32    | 32.000 | 32342 |
+|       |        |       |
+
