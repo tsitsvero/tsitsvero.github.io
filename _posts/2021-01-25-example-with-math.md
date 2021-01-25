@@ -11,6 +11,8 @@ and some text \\(i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) \\) and an
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
 
+you can edit just inline $\int_{-\infty}^{\infty} f(x) \operatorname{d}x$
+
 and for inline \\(i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)\\)
 
 and something else...
