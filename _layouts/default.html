@@ -4,8 +4,6 @@
 <!-- <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}"> -->
 <!-- <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script> -->
 <!-- <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script> -->
-<!-- To automatically render math in text elements, include the auto-render extension: -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
 <!-- {% endif %} -->
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
@@ -50,8 +48,9 @@
 </footer>
 {% endif %}
 
-</html>
 
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
 <script>
   $(document).ready(function () { // this need jquery
     renderMathInElement(document.body, {
@@ -64,3 +63,5 @@
     });
   });
   </script>
+</html>
+
