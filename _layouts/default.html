@@ -11,12 +11,12 @@
     <script>
       document.addEventListener("DOMContentLoaded", function() {
           renderMathInElement(document.body, {
-            [
-  {left: "$$", right: "$$", display: true},
-  {left: "$", right: "$", display: false},
-  {left: "\\(", right: "\\)", display: false},
-  {left: "\\[", right: "\\]", display: true}
-]
+            delimiters: [
+                      {left: "$$", right: "$$", display: true},
+                      {left: "\\[", right: "\\]", display: true},
+                      {left: "$", right: "$", display: false},
+                      {left: "\\(", right: "\\)", display: false}
+                  ]
           });
       });
   </script>
